@@ -3,13 +3,14 @@ console.log('hello world!');
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Meteor } from 'meteor/meteor';
+import ImageList from './components/image_list';
 import './main.html';
 
 //create a component
 const App = () =>{
     return (
         <div>
-            React App #2
+            <ImageList />
         </div>
     );
 };
